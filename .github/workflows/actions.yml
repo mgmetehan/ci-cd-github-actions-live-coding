@@ -18,7 +18,7 @@ jobs:
         uses: actions/setup-java@v3
         with:
           java-version: '17'
-          distirution: 'corretto'
+          distribution: 'corretto'
           cache: 'maven'
 
       - name: Build with Maven
@@ -45,7 +45,7 @@ jobs:
         uses: actions/setup-java@v3
         with:
           java-version: '17'
-          distirution: 'corretto'
+          distribution: 'corretto'
           cache: 'maven'
 
       - name: Cache
