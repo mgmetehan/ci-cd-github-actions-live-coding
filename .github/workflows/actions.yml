@@ -70,7 +70,7 @@ jobs:
           content: .
           dockerfile: Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/folksdevActions:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/folksdevcicd:latest
 
 
 
