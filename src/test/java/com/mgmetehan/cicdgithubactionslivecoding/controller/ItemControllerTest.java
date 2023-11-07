@@ -12,7 +12,7 @@ class ItemControllerTest {
         int a = 1;
         int b = 2;
 
-        assertEquals(4, a + b);
+        assertEquals(3, a + b);
     }
 
 }
